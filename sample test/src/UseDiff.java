@@ -67,6 +67,8 @@ class UseDiff {
 	    ctx.addToEnvironment(Context.SECURITY_AUTHENTICATION, "none");
 
 	    System.out.println(ctx.lookup("ou=NewHires"));
+	    
+	    System.out.println("test");
 
 	    // do something useful with ctx
 
